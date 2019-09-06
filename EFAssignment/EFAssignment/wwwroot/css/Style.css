@@ -1,0 +1,49 @@
+﻿.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+body {
+    background-color: #F1F1F1;
+}
+
+h4 {
+    margin: 20px 0 20px 0;
+    text-align: center;
+    padding:30px;
+}
+
+#addemp {
+    margin: 20px 0 20px 0;
+}
+
+/*# Footer*/
+#footer {
+    background: #000;
+    color: #eee;
+    font-size: 14px;
+    margin-top: 390px;
+}
+
+    #footer .copyright {
+        text-align: center;
+        padding-top: 30px;
+    }
+

@@ -1,0 +1,44 @@
+﻿@model EFAssignment.Models.EmployeeDetails
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!--Form to Add and Edit Employee Details-->
+<div class="container">
+    <div class="form-horizontal">
+        <h4>Employee Details</h4>
+        <hr />
+        <form asp-controller="Home" asp-action="SaveEmployeeDetails" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="@Model.Name" class="control-label col-md-2"></label>
+                <div class="col-md-10">
+                    <input asp-for="@Model.Name" class="form-control" />
+                    <span asp-validation-for="@Model.Name" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Email" class="control-label col-md-2"></label>
+                <div class="col-md-10">
+                    <input asp-for="@Model.Email" class="form-control" />
+                    <span asp-validation-for="@Model.Email" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="DepartmentId" class="control-label col-md-2"></label>
+                <div class="col-md-10">
+                    <select asp-for="DepartmentId" asp-items="ViewBag.DepartmentId" class="form-control">
+                        <option selected="selected" value="" disabled>--Please Select--</option>
+                    </select>
+                    <span asp-validation-for="DepartmentId" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Save" class="btn btn-info" />
+                    <a asp-action="Index" class="btn btn-danger">Cancel</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

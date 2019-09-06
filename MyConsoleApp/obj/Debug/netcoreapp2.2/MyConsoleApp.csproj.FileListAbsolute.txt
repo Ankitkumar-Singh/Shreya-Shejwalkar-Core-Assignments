@@ -1,0 +1,11 @@
+D:\Asp.net-Core\MyConsoleApp\bin\Debug\netcoreapp2.2\MyConsoleApp.deps.json
+D:\Asp.net-Core\MyConsoleApp\bin\Debug\netcoreapp2.2\MyConsoleApp.runtimeconfig.json
+D:\Asp.net-Core\MyConsoleApp\bin\Debug\netcoreapp2.2\MyConsoleApp.runtimeconfig.dev.json
+D:\Asp.net-Core\MyConsoleApp\bin\Debug\netcoreapp2.2\MyConsoleApp.dll
+D:\Asp.net-Core\MyConsoleApp\bin\Debug\netcoreapp2.2\MyConsoleApp.pdb
+D:\Asp.net-Core\MyConsoleApp\obj\Debug\netcoreapp2.2\MyConsoleApp.csprojAssemblyReference.cache
+D:\Asp.net-Core\MyConsoleApp\obj\Debug\netcoreapp2.2\MyConsoleApp.csproj.CoreCompileInputs.cache
+D:\Asp.net-Core\MyConsoleApp\obj\Debug\netcoreapp2.2\MyConsoleApp.AssemblyInfoInputs.cache
+D:\Asp.net-Core\MyConsoleApp\obj\Debug\netcoreapp2.2\MyConsoleApp.AssemblyInfo.cs
+D:\Asp.net-Core\MyConsoleApp\obj\Debug\netcoreapp2.2\MyConsoleApp.dll
+D:\Asp.net-Core\MyConsoleApp\obj\Debug\netcoreapp2.2\MyConsoleApp.pdb
